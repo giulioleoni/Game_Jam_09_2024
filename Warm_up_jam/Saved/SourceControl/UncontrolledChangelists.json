@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_DraggableWidget.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_BatWings.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_HUD.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Main_Level.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/BP_WidgetDrag.uasset"
+			]
+		}
+	]
+}
