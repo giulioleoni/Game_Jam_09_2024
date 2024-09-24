@@ -5,6 +5,25 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_DraggableWidget.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_HUD.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Main_Level.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/BP_WidgetDrag.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Maps/GameOverMap.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Maps/MainMenuMap.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/FPWeapon/Mesh/SK_FPGun_Physics.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/MainMenu/GameOverWidget.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/Menus/Default__GameOverWidget_C_2.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/MainMenu/MainMenuWidget.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/Menus/Default__MainMenuWidget_C_2.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/Menus/Default__MainMenuGameMode_C_2.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/MainMenu/MainMenuGameMode.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Scenes/Game_End_Scene.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Scenes/Menu_scene.umap",
 				"C:/Users/Utente/Documents/GitHub/AIV_SecondoAnno_2024/ChefsAnger/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Maps/MainMenuMap.umap",
 				"C:/Users/Utente/Documents/GitHub/AIV_SecondoAnno_2024/ChefsAnger/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/MainMenu/MainMenuWidget.uasset",
 				"C:/Users/Utente/Documents/GitHub/AIV_SecondoAnno_2024/ChefsAnger/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/MainMenu/MainMenuGameMode.uasset",
@@ -38,11 +57,7 @@
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/nuvoletta_puff7_Sprite.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/nuvoletta_puff8_Sprite.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/nuvoletta_puff9_Sprite.uasset",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_DraggableWidget.uasset",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_BatWings.uasset",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_HUD.uasset",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Main_Level.umap",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/BP_WidgetDrag.uasset"
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_BatWings.uasset"
 			]
 		}
 	]
