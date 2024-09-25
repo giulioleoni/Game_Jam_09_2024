@@ -1861,3 +1861,191 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.09.25-10.15.16:356][536]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
 [2024.09.25-10.15.16:356][536]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
 [2024.09.25-10.15.16:356][536]MaterialEditorStats: Shader Count: 2
+[2024.09.25-10.24.02:085][283]LogSlate: Window 'Message' being destroyed
+[2024.09.25-10.24.02:097][283]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Game/animazioni/M_calderone.M_calderone
+(Selecting 'No' will cause all changes to be lost!)
+[2024.09.25-10.24.02:102][283]LogAutomationController: Ignoring very large delta of 6.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.09.25-10.24.06:076][522]LogMaterialEditor: Applying material M_calderone
+[2024.09.25-10.24.06:242][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.09.25-10.24.06:337][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2024.09.25-10.24.06:357][522]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-10.24.06:357][522]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.06:357][522]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.06:357][522]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-10.24.06:357][522]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.24.06:357][522]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.24.06:357][522]MaterialEditorStats: Shader Count: 0
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: ================================================
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Total job queries 136, among them cache hits 98 (72.06%)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Tracking 38 distinct input hashes that result in 26 distinct outputs (68.42%)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: RAM used: 602,52 KiB of 819,20 MiB budget. Usage: 0.07%
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Shaders Compiled: 24
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Jobs assigned 24, completed 24 (100%)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Average time worker was idle: 230.94 s
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Job execution time: average 0.34 s, max 0.53 s
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Job life time (pending + execution): average 0.40 s, max 0.63
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Shader code size: average 26,723 KiB, min 6,074 KiB, max 36,637 KiB
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.62 s
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Jobs were issued in 24 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Average processing rate: 6.62 jobs/sec
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Total thread time: 3,65 s
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Total thread preprocess time: 0,613 s
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Percentage time preprocessing: 16.79%
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Effective parallelization: 1.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.26 sec, max 0.27 sec, min 0.26 sec)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.26 sec, max 0.32 sec, min 0.17 sec)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.25 sec, max 0.28 sec, min 0.20 sec)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.13 sec, max 0.14 sec, min 0.12 sec)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    6 times, average 0.10 sec, max 0.13 sec, min 0.09 sec)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.19% of total time (compiled    4 times, average 0.26 sec, max 0.32 sec, min 0.17 sec)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.30% of total time (compiled    4 times, average 0.25 sec, max 0.28 sec, min 0.20 sec)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 17.01% of total time (compiled    6 times, average 0.10 sec, max 0.13 sec, min 0.09 sec)
+[2024.09.25-10.24.06:376][522]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.48% of total time (compiled    2 times, average 0.26 sec, max 0.27 sec, min 0.26 sec)
+[2024.09.25-10.24.06:377][522]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.10% of total time (compiled    2 times, average 0.13 sec, max 0.14 sec, min 0.12 sec)
+[2024.09.25-10.24.06:377][522]LogShaderCompilers: Display: ================================================
+[2024.09.25-10.24.06:384][523]MaterialEditorStats: Default UI Pixel Shader: 52 instructions
+[2024.09.25-10.24.06:384][523]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.24.06:384][523]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.06:384][523]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-10.24.06:384][523]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.24.06:384][523]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.24.06:384][523]MaterialEditorStats: Shader Count: 2
+[2024.09.25-10.24.09:309][696]LogMaterialEditor: Saving and Compiling material M_calderone
+[2024.09.25-10.24.09:312][696]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.25-10.24.10:220][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/animazioni/M_calderone" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/M_calderone.uasset" SILENT=true
+[2024.09.25-10.24.10:227][696]LogSavePackage: Moving output files for package: /Game/Game/animazioni/M_calderone
+[2024.09.25-10.24.10:227][696]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/M_calderoneF458F0754163D7F2C2BF13A881C4C6B4.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/M_calderone.uasset'
+[2024.09.25-10.24.10:236][696]LogFileHelpers: InternalPromptForCheckoutAndSave took 923 ms (total: 2.38 sec)
+[2024.09.25-10.24.10:242][696]AssetCheck: New page: Asset Save: M_calderone
+[2024.09.25-10.24.10:242][696]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/animazioni/M_calderone.M_calderone
+[2024.09.25-10.24.10:243][696]MaterialEditorStats: Default UI Pixel Shader: 52 instructions
+[2024.09.25-10.24.10:243][696]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.24.10:243][696]MaterialEditorStats: Instanced UI Vertex Shader: 47 instructions
+[2024.09.25-10.24.10:243][696]MaterialEditorStats: Texture samplers: 3/16
+[2024.09.25-10.24.10:243][696]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.24.10:243][696]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.24.10:243][696]MaterialEditorStats: Shader Count: 12
+[2024.09.25-10.24.11:272][753]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.09.25-10.24.11:279][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.25-10.24.22:534][400]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Game/animazioni/M_calderone.M_calderone
+[2024.09.25-10.24.22:576][400]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.25-10.24.22:584][400]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.25-10.24.22:797][400]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-10.24.22:797][400]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.22:797][400]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.22:797][400]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-10.24.22:797][400]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.24.22:797][400]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.24.22:797][400]MaterialEditorStats: Shader Count: 0
+[2024.09.25-10.24.23:006][412]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-10.24.23:006][412]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.24.23:006][412]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.23:006][412]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-10.24.23:006][412]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.24.23:006][412]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.24.23:006][412]MaterialEditorStats: Shader Count: 1
+[2024.09.25-10.24.23:106][418]MaterialEditorStats: Default UI Pixel Shader: 52 instructions
+[2024.09.25-10.24.23:106][418]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.24.23:107][418]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.23:107][418]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-10.24.23:107][418]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.24.23:107][418]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.24.23:107][418]MaterialEditorStats: Shader Count: 2
+[2024.09.25-10.24.24:574][503]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.09.25-10.24.24:574][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.25-10.24.27:759][672]LogContentBrowser: Deferred new asset file creation: M_calderone1
+[2024.09.25-10.24.27:770][672]LogContentBrowser: Creating deferred item: M_calderone1
+[2024.09.25-10.24.27:779][673]LogContentBrowser: Renaming the item being created (Deferred Item: M_calderone1).
+[2024.09.25-10.24.35:516][136]LogContentBrowser: Attempting asset rename: M_calderone1 -> M_nuvoletta
+[2024.09.25-10.24.35:529][136]LogContentBrowser: End creating deferred item M_calderone1
+[2024.09.25-10.24.37:049][223]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Game/animazioni/M_nuvoletta.M_nuvoletta
+[2024.09.25-10.24.37:055][223]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.25-10.24.37:057][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.25-10.24.37:281][223]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-10.24.37:281][223]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.37:281][223]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.37:281][223]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-10.24.37:281][223]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.24.37:281][223]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.24.37:281][223]MaterialEditorStats: Shader Count: 0
+[2024.09.25-10.24.37:337][225]MaterialEditorStats: Default UI Pixel Shader: 52 instructions
+[2024.09.25-10.24.37:337][225]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.24.37:337][225]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.24.37:337][225]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-10.24.37:337][225]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.24.37:337][225]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.24.37:337][225]MaterialEditorStats: Shader Count: 2
+[2024.09.25-10.24.58:930][ 73]LogInterchangeEngine: [Pending] Importing
+[2024.09.25-10.24.58:930][ 73]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/miche/Deskt...eRoma/nuvoletta_Puff/sprite_nuvoletta.png]
+[2024.09.25-10.24.58:976][ 74]LogInterchangeEngine: [Pending] Importing
+[2024.09.25-10.24.59:102][ 74]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.09.25-10.24.59:270][ 74]LogInterchangeEngine: [Success] Import Done
+[2024.09.25-10.24.59:276][ 74]LogTexture: Display: Building textures: /Game/Game/animazioni/nuvola_sprites/sprite_nuvoletta.sprite_nuvoletta (TFO_AutoDXT, 4000x3000 x1x1x1) (Required Memory Estimate: 824.037109 MB), EncodeSpeed: Fast
+[2024.09.25-10.24.59:381][ 75]LogInterchangeEngine: [Success] Import Done
+[2024.09.25-10.25.06:551][360]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-10.25.06:551][360]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-10.25.06:551][360]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.25.06:551][360]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-10.25.06:551][360]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.25.06:551][360]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.25.06:551][360]MaterialEditorStats: Shader Count: 0
+[2024.09.25-10.25.12:862][729]MaterialEditorStats: Default UI Pixel Shader: 52 instructions
+[2024.09.25-10.25.12:862][729]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.25.12:862][729]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.25.12:862][729]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-10.25.12:862][729]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.25.12:862][729]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.25.12:862][729]MaterialEditorStats: Shader Count: 2
+[2024.09.25-10.25.21:466][240]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-10.25.21:466][240]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-10.25.21:466][240]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.25.21:466][240]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-10.25.21:466][240]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.25.21:466][240]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.25.21:466][240]MaterialEditorStats: Shader Count: 0
+[2024.09.25-10.25.21:915][266]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-10.25.21:915][266]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.25.21:915][266]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.25.21:915][266]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-10.25.21:915][266]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.25.21:915][266]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.25.21:915][266]MaterialEditorStats: Shader Count: 1
+[2024.09.25-10.25.22:121][278]MaterialEditorStats: Default UI Pixel Shader: 52 instructions
+[2024.09.25-10.25.22:121][278]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.25.22:121][278]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-10.25.22:121][278]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-10.25.22:121][278]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.25.22:121][278]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.25.22:121][278]MaterialEditorStats: Shader Count: 2
+[2024.09.25-10.25.44:257][603]LogMaterialEditor: Saving and Compiling material M_nuvoletta
+[2024.09.25-10.25.44:333][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.09.25-10.25.44:417][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.09.25-10.25.44:430][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.25-10.25.45:426][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/animazioni/M_nuvoletta" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/M_nuvoletta.uasset" SILENT=true
+[2024.09.25-10.25.45:429][603]LogSavePackage: Moving output files for package: /Game/Game/animazioni/M_nuvoletta
+[2024.09.25-10.25.45:429][603]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/M_nuvolettaD8E212894DFE74B9B05B95BBC1C92BCE.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/M_nuvoletta.uasset'
+[2024.09.25-10.25.45:438][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.00 sec (total: 3.39 sec)
+[2024.09.25-10.25.45:439][603]AssetCheck: New page: Asset Save: M_nuvoletta
+[2024.09.25-10.25.45:439][603]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/animazioni/M_nuvoletta.M_nuvoletta
+[2024.09.25-10.25.45:440][603]MaterialEditorStats: Default UI Pixel Shader: 52 instructions
+[2024.09.25-10.25.45:440][603]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-10.25.45:440][603]MaterialEditorStats: Instanced UI Vertex Shader: 47 instructions
+[2024.09.25-10.25.45:440][603]MaterialEditorStats: Texture samplers: 3/16
+[2024.09.25-10.25.45:440][603]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-10.25.45:440][603]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-10.25.45:440][603]MaterialEditorStats: Shader Count: 12
+[2024.09.25-10.25.47:344][716]LogMaterialEditor: Saving and Compiling material M_nuvoletta
+[2024.09.25-10.25.47:346][716]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.25-10.25.47:419][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/animazioni/M_nuvoletta" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/M_nuvoletta.uasset" SILENT=true
+[2024.09.25-10.25.47:422][716]LogSavePackage: Moving output files for package: /Game/Game/animazioni/M_nuvoletta
+[2024.09.25-10.25.47:423][716]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/M_nuvolettaBF4BA9D440251E955CDE4D90F50B9543.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/M_nuvoletta.uasset'
+[2024.09.25-10.25.47:430][716]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 3.48 sec)
+[2024.09.25-10.25.47:433][716]AssetCheck: New page: Asset Save: M_nuvoletta
+[2024.09.25-10.25.47:433][716]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/animazioni/M_nuvoletta.M_nuvoletta
+[2024.09.25-10.25.50:929][911]LogSlate: Window 'M_nuvoletta' being destroyed
