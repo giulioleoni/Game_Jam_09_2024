@@ -2850,3 +2850,381 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.09.25-13.44.13:387][725]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_088FC34F19E8AA1F02_1962498154
 [2024.09.25-13.44.13:387][725]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Game/oggetti/mensole.mensole
 [2024.09.25-13.44.13:387][725]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/oggetti/mensole_Mat.mensole_Mat
+[2024.09.25-13.55.36:681][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.09.25-13.55.39:308][132]LogSlate: Window 'Delete Assets' being destroyed
+[2024.09.25-13.55.39:324][133]LogAutomationController: Ignoring very large delta of 2.66 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.09.25-13.58.47:589][301]LogViewport: Scene viewport resized to 1523x845, mode Windowed.
+[2024.09.25-14.00.07:056][962]Cmd: TRANSACTION UNDO
+[2024.09.25-14.00.07:056][962]LogEditorTransaction: Undo Rotate Elements
+[2024.09.25-14.00.12:171][229]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Game/animazioni/M_calderone.M_calderone
+[2024.09.25-14.00.12:178][229]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.25-14.00.12:178][229]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.25-14.00.12:318][229]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.00.12:318][229]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.00.12:318][229]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.00.12:318][229]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.00.12:318][229]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.00.12:318][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.00.12:318][229]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: ================================================
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: Total job queries 420, among them cache hits 301 (71.67%)
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: Tracking 119 distinct input hashes that result in 80 distinct outputs (67.23%)
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: RAM used: 2,18 MiB of 819,20 MiB budget. Usage: 0.27%
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: Shaders Compiled: 105
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: Jobs assigned 105, completed 105 (100%)
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: Average time worker was idle: 1052.08 s
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: Time job spent in pending queue: average 0.45 s, longest 2.49 s
+[2024.09.25-14.00.12:343][230]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 2.35 s
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Job life time (pending + execution): average 1.07 s, max 3.22
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Shader code size: average 32,349 KiB, min 6,066 KiB, max 71,035 KiB
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.63 s
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Jobs were issued in 105 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Average processing rate: 7.18 jobs/sec
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Total thread time: 35,904 s
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Total thread preprocess time: 7,703 s
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Percentage time preprocessing: 21.46%
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Effective parallelization: 2.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.87 sec, max 0.87 sec, min 0.87 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:                       TLightMapDensityVSFDummyLightMapPolicy (compiled    1 times, average 0.76 sec, max 0.76 sec, min 0.76 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.74% of total time (compiled   11 times, average 0.45 sec, max 1.34 sec, min 0.17 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.07% of total time (compiled   11 times, average 0.43 sec, max 1.14 sec, min 0.20 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.24% of total time (compiled    4 times, average 0.47 sec, max 0.63 sec, min 0.31 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.44% of total time (compiled    4 times, average 0.40 sec, max 0.51 sec, min 0.28 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.04% of total time (compiled    4 times, average 0.36 sec, max 0.46 sec, min 0.26 sec)
+[2024.09.25-14.00.12:344][230]LogShaderCompilers: Display: ================================================
+[2024.09.25-14.00.12:399][231]MaterialEditorStats: Default UI Pixel Shader: 52 instructions
+[2024.09.25-14.00.12:399][231]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.00.12:399][231]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.00.12:399][231]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-14.00.12:399][231]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.00.12:399][231]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.00.12:399][231]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.00.18:817][601]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.09.25-14.00.18:817][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.09.25-14.28.00:045][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.09.25-14.28.02:673][228]LogSlate: Window 'Delete Assets' being destroyed
+[2024.09.25-14.28.02:689][228]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Game/oggetti/mensole_Mat.mensole_Mat
+	Asset Type: Material
+[2024.09.25-14.28.03:375][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.09.25-14.28.03:379][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.09.25-14.28.03:385][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.09.25-14.28.03:400][229]LogAutomationController: Ignoring very large delta of 3.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.09.25-14.28.26:246][298]LogStatusBar: Looking status bar with open content browser drawer...
+[2024.09.25-14.28.26:246][298]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2024.09.25-14.28.26:291][298]LogViewport: Scene viewport resized to 1523x547, mode Windowed.
+[2024.09.25-14.28.48:740][605]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.09.25-14.28.48:753][605]LogContentBrowser: Creating deferred item: NewFolder
+[2024.09.25-14.28.48:762][606]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.09.25-14.28.52:364][817]LogContentBrowser: Attempting asset rename: NewFolder -> txtr
+[2024.09.25-14.28.52:365][817]LogContentBrowser: End creating deferred item NewFolder
+[2024.09.25-14.28.56:443][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.25-14.28.56:541][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/oggetti/M_mensole" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/M_mensole.uasset" SILENT=true
+[2024.09.25-14.28.56:543][ 48]LogSavePackage: Moving output files for package: /Game/Game/oggetti/M_mensole
+[2024.09.25-14.28.56:543][ 48]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/M_mensole7636DD7B42FCF0F32B3EC19FAEC61A98.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/M_mensole.uasset'
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: ================================================
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Total job queries 430, among them cache hits 311 (72.33%)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Tracking 119 distinct input hashes that result in 80 distinct outputs (67.23%)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: RAM used: 2,18 MiB of 819,20 MiB budget. Usage: 0.27%
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Shaders Compiled: 105
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Jobs assigned 105, completed 105 (100%)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Average time worker was idle: 1052.08 s
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Time job spent in pending queue: average 0.45 s, longest 2.49 s
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 2.35 s
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Job life time (pending + execution): average 1.07 s, max 3.22
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Shader code size: average 32,349 KiB, min 6,066 KiB, max 71,035 KiB
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.63 s
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Jobs were issued in 105 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Average processing rate: 7.18 jobs/sec
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Total thread time: 35,904 s
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Total thread preprocess time: 7,703 s
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Percentage time preprocessing: 21.46%
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Effective parallelization: 2.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.87 sec, max 0.87 sec, min 0.87 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:                       TLightMapDensityVSFDummyLightMapPolicy (compiled    1 times, average 0.76 sec, max 0.76 sec, min 0.76 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.74 sec, max 0.74 sec, min 0.74 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.74% of total time (compiled   11 times, average 0.45 sec, max 1.34 sec, min 0.17 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.07% of total time (compiled   11 times, average 0.43 sec, max 1.14 sec, min 0.20 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.24% of total time (compiled    4 times, average 0.47 sec, max 0.63 sec, min 0.31 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.44% of total time (compiled    4 times, average 0.40 sec, max 0.51 sec, min 0.28 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.04% of total time (compiled    4 times, average 0.36 sec, max 0.46 sec, min 0.26 sec)
+[2024.09.25-14.28.56:556][ 48]LogShaderCompilers: Display: ================================================
+[2024.09.25-14.28.56:560][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/oggetti/M_muro" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/M_muro.uasset" SILENT=true
+[2024.09.25-14.28.56:562][ 48]LogSavePackage: Moving output files for package: /Game/Game/oggetti/M_muro
+[2024.09.25-14.28.56:563][ 48]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/M_muro93946A714E2EB3BC92CA81A6F4B18AAB.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/M_muro.uasset'
+[2024.09.25-14.28.56:564][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/oggetti/txtr/mensole" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/txtr/mensole.uasset" SILENT=true
+[2024.09.25-14.28.56:572][ 48]LogSavePackage: Moving output files for package: /Game/Game/oggetti/txtr/mensole
+[2024.09.25-14.28.56:572][ 48]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/mensole21456A11402F65468EAFAC89F326944F.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/txtr/mensole.uasset'
+[2024.09.25-14.28.56:574][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/oggetti/txtr/muro" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/txtr/muro.uasset" SILENT=true
+[2024.09.25-14.28.56:582][ 48]LogSavePackage: Moving output files for package: /Game/Game/oggetti/txtr/muro
+[2024.09.25-14.28.56:582][ 48]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/muroEE8A9C1741B005EA20F05FA5A11FFDD0.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/txtr/muro.uasset'
+[2024.09.25-14.28.56:597][ 48]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 5.89 sec)
+[2024.09.25-14.28.56:612][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.09.25-14.28.56:619][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.09.25-14.28.56:623][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.09.25-14.28.56:666][ 48]AssetCheck: New page: Asset Save: multiple assets
+[2024.09.25-14.28.56:666][ 48]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/oggetti/M_mensole.M_mensole
+[2024.09.25-14.28.56:666][ 48]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/oggetti/M_muro.M_muro
+[2024.09.25-14.28.56:666][ 48]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Game/oggetti/txtr/mensole.mensole
+[2024.09.25-14.28.56:666][ 48]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Game/oggetti/txtr/muro.muro
+[2024.09.25-14.29.25:252][768]LogInterchangeEngine: [Pending] Importing
+[2024.09.25-14.29.25:252][768]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/miche/Desktop/DajeRoma/stanza/freccia_pergamena.png]
+[2024.09.25-14.29.25:280][769]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.09.25-14.29.25:286][769]LogInterchangeEngine: [Pending] Importing
+[2024.09.25-14.29.25:607][769]LogTexture: Display: Building textures: /Game/Game/oggetti/txtr/freccia_pergamena.freccia_pergamena (BGRA8, 53x52 x1x1x1) (Required Memory Estimate: 0.143089 MB), EncodeSpeed: Fast
+[2024.09.25-14.29.25:946][770]LogInterchangeEngine: [Success] Import Done
+[2024.09.25-14.29.25:979][771]LogInterchangeEngine: [Success] Import Done
+[2024.09.25-14.29.34:848][ 55]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.09.25-14.29.34:858][ 55]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.09.25-14.29.34:868][ 56]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.09.25-14.29.40:791][408]LogContentBrowser: Attempting asset rename: NewMaterial -> M_freccia
+[2024.09.25-14.29.40:792][408]LogContentBrowser: End creating deferred item NewMaterial
+[2024.09.25-14.29.46:303][700]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Game/oggetti/M_freccia.M_freccia
+[2024.09.25-14.29.46:313][700]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.25-14.29.46:313][700]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.25-14.29.46:544][700]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.29.46:545][700]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.29.46:545][700]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.29.46:556][700]LogViewport: Scene viewport resized to 464x321, mode Windowed.
+[2024.09.25-14.29.46:672][702]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.09.25-14.29.46:672][702]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.09.25-14.29.46:672][702]MaterialEditorStats: Texture samplers: 2/16
+[2024.09.25-14.29.46:672][702]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.29.46:672][702]MaterialEditorStats: Shader Count: 4
+[2024.09.25-14.29.54:099][122]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.29.54:099][122]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.29.54:099][122]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.29.54:099][122]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.29.54:099][122]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.29.54:099][122]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.29.54:220][125]MaterialEditorStats: Default UI Pixel Shader: 38 instructions
+[2024.09.25-14.29.54:220][125]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.29.54:220][125]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.29.54:220][125]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.29.54:220][125]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.29.54:220][125]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.29.56:195][240]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.29.56:195][240]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.29.56:195][240]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.29.56:195][240]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.29.56:195][240]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.29.56:195][240]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.29.56:217][242]MaterialEditorStats: Default UI Pixel Shader: 38 instructions
+[2024.09.25-14.29.56:217][242]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.29.56:217][242]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.29.56:217][242]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.29.56:217][242]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.29.56:217][242]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.30.02:185][574]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.30.02:185][574]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.02:185][574]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.02:185][574]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.30.02:185][574]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.02:185][574]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.02:185][574]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.30.02:215][576]MaterialEditorStats: Default UI Pixel Shader: 46 instructions
+[2024.09.25-14.30.02:215][576]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.30.02:215][576]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.02:215][576]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-14.30.02:215][576]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.02:215][576]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.02:215][576]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.30.04:373][697]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.30.04:373][697]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.04:373][697]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.04:373][697]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.30.04:373][697]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.04:373][697]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.04:373][697]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.30.05:086][736]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.30.05:086][736]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.30.05:086][736]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.05:086][736]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.30.05:086][736]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.05:086][736]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.05:086][736]MaterialEditorStats: Shader Count: 1
+[2024.09.25-14.30.05:241][742]MaterialEditorStats: Default UI Pixel Shader: 47 instructions
+[2024.09.25-14.30.05:241][742]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.30.05:241][742]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.05:241][742]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-14.30.05:242][742]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.05:242][742]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.05:242][742]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.30.07:708][882]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.30.07:708][882]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.07:708][882]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.07:708][882]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.30.07:708][882]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.07:708][882]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.07:708][882]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.30.07:833][884]MaterialEditorStats: Default UI Pixel Shader: 47 instructions
+[2024.09.25-14.30.07:833][884]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.30.07:833][884]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.07:833][884]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-14.30.07:833][884]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.07:833][884]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.07:833][884]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.30.11:571][108]LogMaterialEditor: Applying material M_freccia
+[2024.09.25-14.30.11:640][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.09.25-14.30.11:724][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.09.25-14.30.11:737][108]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.30.11:737][108]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.11:737][108]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.11:737][108]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.30.11:737][108]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.11:737][108]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.11:737][108]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.30.11:770][109]MaterialEditorStats: Default UI Pixel Shader: 47 instructions
+[2024.09.25-14.30.11:770][109]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.30.11:770][109]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.30.11:770][109]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-14.30.11:770][109]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.11:770][109]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.11:770][109]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.30.12:655][159]LogMaterialEditor: Saving and Compiling material M_freccia
+[2024.09.25-14.30.12:657][159]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.25-14.30.12:755][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/oggetti/M_freccia" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/M_freccia.uasset" SILENT=true
+[2024.09.25-14.30.12:757][159]LogSavePackage: Moving output files for package: /Game/Game/oggetti/M_freccia
+[2024.09.25-14.30.12:757][159]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/M_freccia6EB8EEE54412C16857A60BAD58E0234A.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/M_freccia.uasset'
+[2024.09.25-14.30.12:768][159]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 6.00 sec)
+[2024.09.25-14.30.12:769][159]AssetCheck: New page: Asset Save: M_freccia
+[2024.09.25-14.30.12:769][159]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/oggetti/M_freccia.M_freccia
+[2024.09.25-14.30.12:771][159]MaterialEditorStats: Default UI Pixel Shader: 47 instructions
+[2024.09.25-14.30.12:771][159]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.30.12:771][159]MaterialEditorStats: Instanced UI Vertex Shader: 47 instructions
+[2024.09.25-14.30.12:771][159]MaterialEditorStats: Texture samplers: 3/16
+[2024.09.25-14.30.12:771][159]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.30.12:771][159]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.30.12:771][159]MaterialEditorStats: Shader Count: 12
+[2024.09.25-14.30.51:781][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.09.25-14.30.51:784][117]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/1D/5R8U3CMEWRCMCT8BU98A7H_Auto7
+[2024.09.25-14.30.51:784][117]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/5R8U3CMEWRCMCT8BU98A7H_Auto73CC9B9754F7DD9F2754746A5F57F0182.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/1D/5R8U3CMEWRCMCT8BU98A7H_Auto7.uasset'
+[2024.09.25-14.30.51:785][117]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.010
+[2024.09.25-14.30.51:786][117]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.010
+[2024.09.25-14.30.51:787][117]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/oggetti/txtr/freccia_pergamena] ([1] browsable assets)...
+[2024.09.25-14.30.51:790][117]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Game/oggetti/txtr/freccia_pergamena.freccia_pergamena]
+[2024.09.25-14.30.51:790][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/oggetti/txtr/freccia_pergamena]
+[2024.09.25-14.30.51:792][117]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Game/oggetti/txtr/freccia_pergamena_Auto7
+[2024.09.25-14.30.51:792][117]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/freccia_pergamena_Auto780F9860C4F319AF1A1D78491469F3CD7.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/Autosaves/Game/Game/oggetti/txtr/freccia_pergamena_Auto7.uasset'
+[2024.09.25-14.30.51:793][117]LogFileHelpers: Auto-saving content packages took 0.007
+[2024.09.25-14.31.13:610][519]LogInterchangeEngine: [Pending] Importing
+[2024.09.25-14.31.13:610][519]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/miche/Desktop/DajeRoma/stanza/pergamena.png]
+[2024.09.25-14.31.13:644][520]LogInterchangeEngine: [Pending] Importing
+[2024.09.25-14.31.13:961][520]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.09.25-14.31.13:969][521]LogTexture: Display: Building textures: /Game/Game/oggetti/txtr/pergamena.pergamena (BGRA8, 147x180 x1x1x1) (Required Memory Estimate: 0.836349 MB), EncodeSpeed: Fast
+[2024.09.25-14.31.14:304][521]LogInterchangeEngine: [Success] Import Done
+[2024.09.25-14.31.14:339][522]LogInterchangeEngine: [Success] Import Done
+[2024.09.25-14.31.20:605][831]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.09.25-14.31.20:614][831]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.09.25-14.31.20:622][832]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.09.25-14.31.25:745][138]LogContentBrowser: Attempting asset rename: NewMaterial -> M_pergamena
+[2024.09.25-14.31.25:746][138]LogContentBrowser: End creating deferred item NewMaterial
+[2024.09.25-14.31.28:344][217]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Game/oggetti/M_pergamena.M_pergamena
+[2024.09.25-14.31.28:357][217]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.09.25-14.31.28:357][217]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.09.25-14.31.28:510][217]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.31.28:510][217]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.31.28:510][217]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.31.28:539][217]LogViewport: Scene viewport resized to 464x321, mode Windowed.
+[2024.09.25-14.31.28:612][219]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.09.25-14.31.28:612][219]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.09.25-14.31.28:612][219]MaterialEditorStats: Texture samplers: 2/16
+[2024.09.25-14.31.28:612][219]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.31.28:612][219]MaterialEditorStats: Shader Count: 4
+[2024.09.25-14.31.31:712][374]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.31.31:712][374]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.31:712][374]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.31:712][374]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.31.31:712][374]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.31.31:712][374]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.31.31:826][377]MaterialEditorStats: Default UI Pixel Shader: 38 instructions
+[2024.09.25-14.31.31:826][377]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.31.31:826][377]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.31:826][377]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.31.31:826][377]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.31.31:826][377]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.31.34:091][507]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.31.34:091][507]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.34:091][507]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.34:091][507]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.31.34:091][507]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.31.34:091][507]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.31.34:185][510]MaterialEditorStats: Default UI Pixel Shader: 38 instructions
+[2024.09.25-14.31.34:185][510]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.31.34:185][510]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.34:185][510]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.31.34:185][510]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.09.25-14.31.34:185][510]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.31.38:979][788]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.31.38:980][788]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.38:980][788]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.38:980][788]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.31.38:980][788]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.31.38:980][788]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.31.38:980][788]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.31.39:008][790]MaterialEditorStats: Default UI Pixel Shader: 46 instructions
+[2024.09.25-14.31.39:008][790]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.31.39:008][790]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.39:008][790]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-14.31.39:008][790]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.31.39:008][790]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.31.39:008][790]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.31.40:514][873]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.31.40:514][873]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.40:514][873]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.40:514][873]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.31.40:514][873]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.31.40:514][873]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.31.40:514][873]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.31.40:631][875]MaterialEditorStats: Default UI Pixel Shader: 47 instructions
+[2024.09.25-14.31.40:631][875]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.31.40:631][875]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.40:631][875]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-14.31.40:631][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.31.40:631][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.31.40:631][875]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.31.43:413][ 42]LogMaterialEditor: Applying material M_pergamena
+[2024.09.25-14.31.43:473][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.09.25-14.31.43:544][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.09.25-14.31.43:558][ 42]MaterialEditorStats: Default UI Pixel Shader: 0 instructions
+[2024.09.25-14.31.43:558][ 42]MaterialEditorStats: Default UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.43:558][ 42]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.43:558][ 42]MaterialEditorStats: Texture samplers: 0/16
+[2024.09.25-14.31.43:558][ 42]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.31.43:558][ 42]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.31.43:558][ 42]MaterialEditorStats: Shader Count: 0
+[2024.09.25-14.31.43:590][ 43]MaterialEditorStats: Default UI Pixel Shader: 47 instructions
+[2024.09.25-14.31.43:590][ 43]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.31.43:590][ 43]MaterialEditorStats: Instanced UI Vertex Shader: 0 instructions
+[2024.09.25-14.31.43:590][ 43]MaterialEditorStats: Texture samplers: 1/16
+[2024.09.25-14.31.43:590][ 43]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.31.43:590][ 43]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.31.43:590][ 43]MaterialEditorStats: Shader Count: 2
+[2024.09.25-14.31.44:229][ 78]LogMaterialEditor: Saving and Compiling material M_pergamena
+[2024.09.25-14.31.44:230][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.09.25-14.31.44:330][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/oggetti/M_pergamena" FILE="../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/M_pergamena.uasset" SILENT=true
+[2024.09.25-14.31.44:332][ 78]LogSavePackage: Moving output files for package: /Game/Game/oggetti/M_pergamena
+[2024.09.25-14.31.44:332][ 78]LogSavePackage: Moving '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Saved/M_pergamenaD88D421848010FD821FB95A8557EE666.tmp' to '../../../../../../Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/M_pergamena.uasset'
+[2024.09.25-14.31.44:348][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 6.11 sec)
+[2024.09.25-14.31.44:350][ 78]AssetCheck: New page: Asset Save: M_pergamena
+[2024.09.25-14.31.44:350][ 78]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/oggetti/M_pergamena.M_pergamena
+[2024.09.25-14.31.44:352][ 78]MaterialEditorStats: Default UI Pixel Shader: 47 instructions
+[2024.09.25-14.31.44:352][ 78]MaterialEditorStats: Default UI Vertex Shader: 47 instructions
+[2024.09.25-14.31.44:352][ 78]MaterialEditorStats: Instanced UI Vertex Shader: 47 instructions
+[2024.09.25-14.31.44:352][ 78]MaterialEditorStats: Texture samplers: 3/16
+[2024.09.25-14.31.44:352][ 78]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.09.25-14.31.44:352][ 78]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.09.25-14.31.44:352][ 78]MaterialEditorStats: Shader Count: 12
