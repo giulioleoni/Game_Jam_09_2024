@@ -5,6 +5,18 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_HUD.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/BP_Person.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/BP_GameMode.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_Ingredient.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Maps/Game_End_Scene.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Maps/Menu_scene.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Maps/MainMenuMap.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Maps/GameOverMap.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Blueprints/NewHUD.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Blueprints/BP_HUD.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Maps/Main_Level.umap",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/BP_HUD.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde1.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde2.uasset",
@@ -35,9 +47,7 @@
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde13_Sprite.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde12_Sprite.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde14_Sprite.uasset",
-				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde15_Sprite.uasset",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_HUD.uasset",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/BP_Person.uasset"
+				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde15_Sprite.uasset"
 			]
 		}
 	]
