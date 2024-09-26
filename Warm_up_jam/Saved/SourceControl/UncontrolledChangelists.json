@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_HUD.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/BP_Person.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/BP_GameMode.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_Ingredient.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/Menus/Default__GameOverWidget_C_2.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/Menus/Default__MainMenuGameMode_C_2.uasset",
+				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/Menus/Default__MainMenuWidget_C_2.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde1.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/animazioni/calderone_verde/calderone_verde2.uasset",
@@ -52,9 +59,7 @@
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/1D/5R8U3CMEWRCMCT8BU98A7H.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/V1/UTH6OWPIW8LMJU6LR1OYN2.uasset",
 				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/mensole.uasset",
-				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/mensole_Mat.uasset",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/DragAndDrop/WBP_HUD.uasset",
-				"C:/Users/giuli/OneDrive/Documenti/GitHub/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/Blueprint/UI/BP_Person.uasset"
+				"C:/Users/miche/Desktop/DajeRoma/Warm_Up_Game_Jam/Warm_up_jam/Content/Game/oggetti/mensole_Mat.uasset"
 			]
 		}
 	]
