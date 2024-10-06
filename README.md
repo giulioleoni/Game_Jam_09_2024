@@ -2,11 +2,19 @@
  
 This project was made for the Warm up Game Jam organised by [A.I.V.](https://www.aiv01.it/) on 23-27 September 2024.
 
-The theme of the jam was "unstable", and the team consisted of five students or former students (including myself) from A.I.V.
+The theme of the jam was "unstable", and the team consisted of five students or former students (including myself) from A.I.V. 
+
+We were 1 game designer, 2 programmers and 2 graphic designers.
 
 The game was made with Enreal Engine 5.3, and is purely UI. It consists of creating various potions by mixing in the cauldron the ingredients that are available on the shelves. There is a time limit within which to finish the game (even without a timer it is made clear through the movement of the moon and other graphic and sound elements).
 
+The full [gameplay](https://www.youtube.com/watch?v=6nqEMh_2uyo) on YT.
+
 I worked on the main HUD and game mechanics.
+
+It was interesting to work on a game project purely in ui, it allowed me to understand and learn more about the functionalities of the ui of unreal and experience new things I didn't know.
+
+All this combined with the context of the jam, which with the little time and people available, forces you to look for alternative solutions.
 
 ## Drag and Drop
 
@@ -18,15 +26,11 @@ On unreal you need to create a specific object the DragdropOperation
 
 Next I created two widgets, one is the static image of a pot with many ingredients, and the other will be the image that is shown when you drag one of the ingredients to put it in the cauldron.
 
-When I detect a drag, the operation and the widget to be used as a visual are created
+When I detect a drag on static image, the operation and the widget to be used as a visual are created
 
 ![e](https://github.com/user-attachments/assets/82a9f648-132d-4740-8061-e5ab027f22f7)
 
 Then when I drop something I check that I'm hovering over the cauldron image, only then can I add the ingredient to the potion I am making
-
-![Screenshot 2024-10-03 150931](https://github.com/user-attachments/assets/58987efa-599f-4744-9a63-3cf36fbafc41)
-
-
 
 
 https://github.com/user-attachments/assets/549c9b7c-0dca-4406-a8eb-22dee7fea968
@@ -50,7 +54,7 @@ When a new client appears to ask for a potion, the wanted potion will be randomi
 
 Instead of creating many different clients, I thought of using one widget for the client and changing the sprite radomically each time a potion is completed.
 
-I used the UI animations for the fade in and fade out effects and also for the client's shake (animation executed when he wants to have the potion)
+I used the UI animations for the fade in/out effects and also for the client's shake (animation executed when he askes for the potion)
 
 
 
@@ -68,7 +72,9 @@ The material:
 
 I chose to make extensive use of UI animations, in addition to the client's fade in. 
 
-I used animations for widget movements, for exemple at the beginning there is an animation showing customers outside the window queuing up
+I used animations for widget movements and fade in/out effects, for exemple at the beginning there is an animation showing customers outside the window queuing up
+
+
 
 https://github.com/user-attachments/assets/f6405b67-4860-4b42-bf3e-501c8bcf4c86
 
