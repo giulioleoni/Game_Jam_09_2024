@@ -12,7 +12,7 @@ The full [gameplay](https://www.youtube.com/watch?v=6nqEMh_2uyo) on YT.
 
 I worked on the main HUD and game mechanics.
 
-It was interesting to work on a game project purely in UI, it allowed me to understand and learn more about the functionalities of the UI of unreal and experience new things I didn't know.
+It was interesting to work on a game project purely in UI, it allowed me to understand and learn more about the functionalities of the UI of Unreal and experience new things I didn't know.
 
 All this combined with the context of the jam, which with the little time and people available, forces you to look for alternative solutions.
 
