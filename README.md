@@ -6,7 +6,7 @@ The theme of the jam was "unstable", and the team consisted of five students or 
 
 We were 1 game designer, 2 programmers and 2 graphic designers.
 
-The game was made with Enreal Engine 5.3, and is purely UI. It consists of creating various potions by mixing in the cauldron the ingredients that are available on the shelves. There is a time limit within which to finish the game (even without a timer it is made clear through the movement of the moon and other graphic and sound elements).
+The game was made with Enreal Engine 5.3, and is purely UI. It consists of creating various potions by mixing in the cauldron the ingredients that are available on the shelves. There is a time limit within which to finish the game (even without a timer it is made clear through graphic and sound elements).
 
 The full [gameplay](https://www.youtube.com/watch?v=6nqEMh_2uyo) on YT.
 
