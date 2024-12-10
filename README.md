@@ -10,7 +10,7 @@ The game was made with Enreal Engine 5.3, and is purely UI. It consists of creat
 
 The full [gameplay](https://www.youtube.com/watch?v=6nqEMh_2uyo) on YT.
 
-I worked on the main HUD and game mechanics.
+I worked on the gameplay mechanics, almost the entire UI of the main level, and also the game over screen UI
 
 It was interesting to work on a game project purely in UI, it allowed me to understand and learn more about the functionalities of the UI of Unreal and experience new things I didn't know.
 
