@@ -54,7 +54,7 @@ When a new client appears to ask for a potion, the wanted potion will be randomi
 
 Instead of creating many different clients, I thought of using one widget for the client and changing the sprite radomically each time a potion is completed.
 
-I used the UI animations for the fade in/out effects and also for the client's shake (animation executed when he askes for the potion)
+I used the UI animations for the fade in/out effects and also for the client's shake (animation executed when he asks for the potion)
 
 
 
