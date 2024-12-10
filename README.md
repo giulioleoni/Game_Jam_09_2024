@@ -78,7 +78,7 @@ I used animations for widget movements and fade in/out effects, for exemple at t
 
 https://github.com/user-attachments/assets/f6405b67-4860-4b42-bf3e-501c8bcf4c86
 
-The last few seconds of the game to simulate a redness effect in the scene, I used an animation that slowly made a red image (placed above the rest of the HUD) partially visible
+The last few seconds of the game to simulate a redness effect in the scene, I used an animation that slowly made a red image (placed above the rest of the UI) partially visible
 
 https://github.com/user-attachments/assets/118f20f5-e964-4a5b-84b8-352077834727
 
